@@ -14,7 +14,7 @@ const Home = () => {
     {
       icon: Car,
       title: "Detailing Zewnętrzny",
-      description: "Kompleksowe mycie, polerowanie i ochrona lakieru Twojego auta",
+      description: "Kompleksowe mycie auta, polerowanie i ochrona lakieru Twojego auta",
     },
     {
       icon: Sparkles,

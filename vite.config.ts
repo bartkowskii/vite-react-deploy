@@ -16,3 +16,4 @@ export default defineConfig(({ mode }) => ({
   },
   base: "/",
 }));
+// End of vite.config.ts
