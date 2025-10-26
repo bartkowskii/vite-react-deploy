@@ -16,5 +16,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
 
-  base: mode === "development" ? "/" : "/detailing-site/",
+  base: mode === "development" ? "/" : "/vite-react-deploy/",
 }));
