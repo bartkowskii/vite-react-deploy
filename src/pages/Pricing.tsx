@@ -131,7 +131,7 @@ const Pricing = () => {
     { name: "Polerowanie reflektorów", price: "od 200 zł" },
     { name: "Czyszczenie podsufitki", price: "od 50 zł" },
     { name: "Wosk Premium / Powłoka ceramiczna (Wymagana pełna dekontaminacja lakieru)", price: "od 100 zł" },
-    { name: "Bardzo dokładne mycie szyb (zmywa kamień z szyb) + niewidzialna roczna niewidzialna wycieraczka GLACO", price: "od 50 zł" },
+    { name: "Bardzo dokładne mycie szyb (zmywa kamień z szyb) + niewidzialna roczna wycieraczka GLACO", price: "od 50 zł" },
   ];
 
   return (
