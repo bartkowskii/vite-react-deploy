@@ -11,6 +11,9 @@ import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
+// 🔔 Dodaj ten import
+import FullScreenNotification from "./components/FullScreenNotification";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -19,6 +22,9 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        {/* 🔔 Tu dodajemy komponent powiadomienia */}
+        <FullScreenNotification />
+
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
